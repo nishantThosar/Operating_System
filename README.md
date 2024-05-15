@@ -1,4 +1,5 @@
 This repository contains the assignment given by CDAC and some basic info of concepts.
+
 Refrence: 
 1] Array of pointers: https://www.geeksforgeeks.org/array-of-pointers-in-c/
 2] Function pointers: https://www.geeksforgeeks.org/function-pointer-in-c/
