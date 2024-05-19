@@ -3,6 +3,8 @@
 	1} Fork Output in top command: https://drive.google.com/file/d/1cYH6Ojf4yAn2ayLGKvY-sJC9sXf8TDhW/view?usp=drive_link
  	2} After renice positive value: https://drive.google.com/file/d/1tEPjU1HA4jYewnpEdrRsnLXk-FYfLyY-/view?usp=drive_link
   	3} After renice negative value: https://drive.google.com/file/d/1tuXOTgIhOGgz2EAyv4PHZsXnHH1rgQqX/view?usp=sharing
+   	4} ps -u command: https://drive.google.com/file/d/1aeBwFCJjNno9ghTfhlWceLGGTy1ejEsf/view?usp=sharing
+    	5} ps -eh command: https://drive.google.com/file/d/1Xt14adnwM1KVNtnJfKODgTR2fB2NEAVR/view?usp=sharing
 */
 /*
 	Author: Nishant Thosar
