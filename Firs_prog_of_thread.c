@@ -1,3 +1,5 @@
+/*Pthread info https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html*/
+
 /*First program for making thread
 The following are the parameters in the pthread_create function.
 	handler to thread
