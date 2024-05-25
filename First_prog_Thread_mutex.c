@@ -9,8 +9,8 @@ Place: CDAC
 //#define pthread_mutex_t PTHREAD
 // #define pthread_mutex PTH
 
-void *print_t(void *);
-void *update(void *);
+void *print_t(void *); // function to print the struct members
+void *update(void *); // function to update the struct members
 
 //Mutual execlusive structure.
 typedef struct
