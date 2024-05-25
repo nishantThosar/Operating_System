@@ -1,6 +1,11 @@
 /*Thread program to make thread and mutex*/
+/*
+Author: Nishant Thosar
+Date: 25 MAY 2024
+Place: CDAC
+*/
 
-#include <Program_shared_IPC.h>
+#include <Program_shared_IPC.h>// this is user defined library.
 //#define pthread_mutex_t PTHREAD
 // #define pthread_mutex PTH
 
@@ -23,7 +28,6 @@ pthread_mutex_t lock; // mutex structure variable named as "lock".
 int main(void)
 {
 	int i = 0;
-	int pthread_mutex_init(pthread_mutex_t *mutex, const pthread_mutexattr_t *attr);
 	pthread_t thread_id[2]; //to store the currently created thread ID
 	
 	
@@ -38,6 +42,7 @@ int main(void)
 
 	pthread_join(thread_id[0],NULL); // to block the process from where the thread is created to wait till the thread is done execution.
 	pthread_join(thread_id[1],NULL); // to block the process from where the thread is created to wait till the thread is done execution.
+	pthread_mutex_destory(&lock); // to destory the mutex.
 	printf("\nTotal times mutex used: %d\n\n", counter);
 	return 0;
 }
